@@ -1,5 +1,5 @@
 JBoss BPM Suite and JBoss DataVirt Travel Agency Integration Demo
-===========================================================
+=================================================================
 This is an online employee travel booking process project. It contains multiple web services for looking up data for the process
 and rules to calculate pricing. Furthermore, there are several tasks that can be activated to evaluate pricing and to review the
 final booking data before completing the booking. Updated data results can be viewed directly in JBoss BPM Suite BAM Dashboards.
@@ -17,9 +17,9 @@ Option 1 - Install on your machine
 
 3. Run 'init.sh' or 'init.bat' file. 'init.bat' must be run with Administrative privileges.
 
-4. Start JBoss DataVirt Server by running 'standalone.sh  -Djboss.socket.binding.port-offset=100' or 'standalone.bat -Djboss.socket.binding.port-offset=100' in the <path-to-project>/target/jboss-dv-6.2/bin directory
+4. Start JBoss DataVirt Server by running 'standalone.sh  -Djboss.socket.binding.port-offset=100' or 'standalone.bat -Djboss.socket.binding.port-offset=100' in the <path-to-project>/target/jboss-dv-6.3/bin directory
 
-5. Start JBoss BPMS Server by running 'standalone.sh' or 'standalone.bat' in the <path-to-project>/target/jboss-bpmsuite-6.2/bin directory.
+5. Start JBoss BPMS Server by running 'standalone.sh' or 'standalone.bat' in the <path-to-project>/target/jboss-eap-7.0/bin directory.
 
 6. Login to [http://localhost:8080/business-central](http://localhost:8080/business-central)
 
@@ -59,7 +59,7 @@ Option 1 - Install on your machine
 
     ```
 
-8. Submit and process a booking from customer booking form (see Booking a Trip below) - [http://localhost:8080/external-client-ui-form-1.0](http://localhost:8080/external-client-ui-form-1.0)
+8. Submit and process a booking from customer booking form (see Booking a Trip below) - http://localhost:8080/external-client-ui-form-1.0
 
 ![Datasource config](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-03.png)
 
@@ -124,31 +124,6 @@ Booking a trip
     see [docs/compensation-howto/README-COMPENSATION.md](docs/compensation-howto/README-COMPENSATION.md)
 
 
-Option 2 - Generate containerized installation
-----------------------------------------------
-The following steps can be used to configure and run the demo in a container
-
-1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/archive/master.zip)
-
-2. Add products installs directory.
-
-3. Copy Dockerfile and .dockerignore files from support/docker directory to the project root.
-
-4. Build demo image
-
-	```
-	docker build -t jbossdemocentral/bpms-dv-travel-agency-integration-demo .
-	```
-5. Start demo container
-
-	```
-	docker run -it -p 9990 -p 9999:9999 -p 8080:8080 -p 31000:31000 -p 10090:10090 -p 10099:10099 -p 8180:8180 jbossdemocentral/bpms-dv-travel-agency-integration-demo
-	```
-6. Follow the instructions from option 1 above replacing localhost with &lt;DOCKER_HOST&gt; with the exception of the *creating a custom Dashboard entry for monitoring the external JBoss DC virtualized DB views* section
-
-Additional information can be found in the jbossdemocentral container [developer repository](https://github.com/jbossdemocentral/docker-developer)
-
-
 Supporting Articles
 -------------------
 - [7 Steps to Your First Process with JBoss BPM Suite Starter	Kit](http://www.schabell.org/2015/08/7-steps-first-process-jboss-bpmsuite-starter-kit.html)
@@ -177,6 +152,8 @@ Supporting Articles
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.5 - JBoss BPM Suite 6.4, JBoss EAP 7.0 and JBoss DataVirt 6.3 with travel agency project installed using disparate data sources.
 
 - v1.4 - JBoss BPM Suite 6.2.0-BZ-1299002 on JBoss EAP 6.4.4 with JBoss DataVirt 6.2 and travel agency project installed using disparate data sources.
 
