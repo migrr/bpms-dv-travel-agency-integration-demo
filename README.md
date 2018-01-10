@@ -11,7 +11,7 @@ Welcome to the JBoss BPM Travel Agency!
 
 Option 1 - Install on your machine
 ----------------------------------
-1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/eschabell/bpms-dv-travel-agency-integration-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
 
@@ -61,13 +61,13 @@ Option 1 - Install on your machine
 
 8. Submit and process a booking from customer booking form (see Booking a Trip below) - http://localhost:8080/external-client-ui-form-1.0
 
-![Datasource config](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-03.png)
+![Datasource config](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-03.png)
 
-![Datasource tables](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-05.png)
+![Datasource tables](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-05.png)
 
-![Datasource 06](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-06.png)
+![Datasource 06](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-06.png)
 
-![Datasource 07](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-07.png)
+![Datasource 07](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-07.png)
 
 Booking a trip 
 --------------
@@ -166,15 +166,15 @@ See the tagged releases for the following versions of the product:
 - v1.0 - JBoss BPM Suite 6.1, JBoss DataVirt 6.1.1 and travel agency project using disparate data sources.
 
 
-[![Video](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/video.png)](https://vimeo.com/ericschabell/bpms-dv-travel-agency-integration-demo)
+[![Video](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/video.png)](https://vimeo.com/ericschabell/bpms-dv-travel-agency-integration-demo)
 
-![Announcement](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/announce-sign.jpg)
+![Announcement](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/announce-sign.jpg)
 
-![Datasource 08](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-08.png)
+![Datasource 08](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-08.png)
 
-![Datasource 06](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-06.png)
+![Datasource 06](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-06.png)
 
-![Datasource 09](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-09.png)
+![Datasource 09](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-09.png)
 
-![Datasource 10](https://raw.githubusercontent.com/jbossdemocentral/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-10.png)
+![Datasource 10](https://raw.githubusercontent.com/eschabell/bpms-dv-travel-agency-integration-demo/master/docs/demo-images/datasource-config-10.png)
 
