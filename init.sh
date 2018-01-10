@@ -2,7 +2,7 @@
 DEMO="JBoss BPM Suite & DV Travel Agency Integration Demo"
 AUTHORS="Niraj Patel, Shepherd Chengeta, Van Halbert,"
 AUTHORS2="Andrew Block, Eric D. Schabell"
-PROJECT="git@github.com:jbossdemocentral/bpms-dv-travel-agency-integration-demo.git"
+PROJECT="git@github.com:eschabell/bpms-dv-travel-agency-integration-demo.git"
 PRODUCT="JBoss BPM Suite"
 JBOSS_HOME=./target/jboss-eap-7.0
 SERVER_DIR=$JBOSS_HOME/standalone/deployments/
@@ -46,7 +46,7 @@ echo "##                                                                        
 echo "##         ${AUTHORS}                        ##"
 echo "##         ${AUTHORS2}                                      ##"
 echo "##                                                                             ##"   
-echo "##  ${PROJECT} ##"
+echo "##  ${PROJECT}        ##"
 echo "##                                                                             ##"   
 echo "#################################################################################"
 echo
@@ -200,11 +200,11 @@ cp $SUPPORT_DIR/teiidfiles/dashboard/* $SERVER_DIR/dashbuilder.war/WEB-INF/deplo
 echo
 echo "====================================================================================="
 echo "=                                                                                   ="
-echo "=  You can now start the $DV_PRODUCT with:                                       ="
+echo "=  You can first start the $DV_PRODUCT in a new terminal with:                   ="
 echo "=                                                                                   ="
 echo "=   $DV_SERVER_BIN/standalone.sh -Djboss.socket.binding.port-offset=100  ="
 echo "=                                                                                   ="
-echo "=  You can now start the $PRODUCT with:                                      ="
+echo "=  After the previous server finishes starting, start the $PRODUCT with:     ="
 echo "=                                                                                   ="
 echo "=   $SERVER_BIN/standalone.sh                                        ="
 echo "=                                                                                   ="
